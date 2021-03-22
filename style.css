@@ -14,7 +14,7 @@
 .container{
     position:relative;
     width:100%;
-    height:700px;
+    height:1000px;
     background-color:cadetblue;
 }
 
@@ -29,9 +29,9 @@ h1{
     margin:auto;
     position:absolute;
     top:150px;
-    left:350px;
+    left:400px;
     width:auto;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     
 }
 
@@ -40,10 +40,24 @@ h1{
     margin:auto;
     position:absolute;
     top:400px;
-    left:350px;
+    left:400px;
     width:auto;
-    background-color: gold;
+  /*   background-color: gold; */
 }
+
+.row_container3{
+    display: inline-block;
+    margin:auto;
+    position:absolute;
+    top:650px;
+    left:400px;
+    width:auto;
+    /* background-color: gold; */
+}
+/* .row_container, .row_container2, .row_container3{
+    margin:10px;
+} */
+
 
 .row{
     display:inline-block;
@@ -59,6 +73,7 @@ h1{
     margin:10px;
     width:150px;
     height:200px;
+    border-radius: 5px;
 }
 
 .text_hover{
@@ -78,15 +93,18 @@ h1{
     display:block;
     background-color: white;
     opacity: 0;
+    border-radius: 5px;
 }
 .card:hover .img_hover, .card:hover .text_hover{
     opacity: 1;
 
 }
 
-/* .img_hover:hover{
-    background-image: url(./img/noun_air_balloon_3134741.png);
-    width:150px;
-    height:200px;
-} */
+
+
+/* text color */
+
+.red{
+    color:red;
+}
 
