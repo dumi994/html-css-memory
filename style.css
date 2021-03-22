@@ -1,0 +1,92 @@
+*{
+    font-family: 'Nerko One', cursive;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.clearfix::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.container{
+    position:relative;
+    width:100%;
+    height:700px;
+    background-color:cadetblue;
+}
+
+h1{
+    font-size: 5rem;
+    color:white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.row_container{
+    margin:auto;
+    position:absolute;
+    top:150px;
+    left:350px;
+    width:auto;
+    background-color: chartreuse;
+    
+}
+
+.row_container2{
+    display: inline-block;
+    margin:auto;
+    position:absolute;
+    top:400px;
+    left:350px;
+    width:auto;
+    background-color: gold;
+}
+
+.row{
+    display:inline-block;
+    margin:10px;
+    width:auto;
+}
+
+.card{
+    position:relative;
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+    display: inline-block;
+    margin:10px;
+    width:150px;
+    height:200px;
+}
+
+.text_hover{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%);
+    margin:auto;
+    opacity: 0;
+    color:purple;
+    font-size: 30px;
+}
+
+.img_hover{
+    width:100%;
+    height:100%;
+    display:block;
+    background-color: white;
+    opacity: 0;
+}
+.card:hover .img_hover, .card:hover .text_hover{
+    opacity: 1;
+
+}
+
+/* .img_hover:hover{
+    background-image: url(./img/noun_air_balloon_3134741.png);
+    width:150px;
+    height:200px;
+} */
+
